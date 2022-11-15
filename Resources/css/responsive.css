@@ -1,0 +1,122 @@
+@media screen and (max-width: 1200px) {
+    .row {
+        margin: 0 2rem;
+    }
+    .hero-text-box {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 57.5%;
+    }
+    header {
+        height: 70vh;
+    }
+    .mobile-menu span {
+        display: block;
+    }
+    .main-nav {
+        display: none;
+    }
+    .about-us .about-img {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .about-us .client-desc {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio img {
+        height: 98%;
+        width: 98%;
+    }
+    .contact form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer {
+        padding: 2rem 0;
+        text-align: left;
+    }
+    .footer li a:link,
+    .footer li a:visited {
+        padding: 0.5rem 2rem;
+    }
+}
+@media screen and (max-width: 980px) {
+    html {
+        font-size: 62.5%;
+    }
+    header {
+        height: 65vh;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(4) {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header {
+        height: 60vh;
+    }
+    .here-text-box h1 {
+        color: #f7f3ea;
+        font-size: 3rem;
+    }
+    .here-text-box {
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 0%);
+        margin-top: 15%;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .span_1_of_4 {
+        width: 100%;
+    }
+    header {
+        height: 55vh;
+    }
+    .logo {
+        height: 2.5rem;
+    }
+    .here-text-box h1 {
+        color: #f7f3ea;
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .btn:link,
+    .btn:visited,
+    .btn {
+        padding: 1.5rem 5rem;
+    }
+    .about-us .col:nth-child(3),
+    .about-us .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .portfolio button {
+        margin-top: 0.5rem;
+    }
+    .footer ul li {
+        display: block;
+        text-align: center;
+    }
+}
